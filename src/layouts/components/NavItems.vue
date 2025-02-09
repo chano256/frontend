@@ -23,41 +23,6 @@ import VerticalNavLink from '@layouts/components/VerticalNavLink.vue'
   </VerticalNavGroup>
 
   <!-- 👉 Front Pages -->
-    <VerticalNavLink
-      :item="{
-        title: 'Landing',
-        href: 'https://demos.themeselection.com/sneat-vuetify-vuejs-admin-template/demo-1/front-pages/landing-page',
-        target: '_blank',
-      }"
-    />
-    <VerticalNavLink
-      :item="{
-        title: 'Pricing',
-        href: 'https://demos.themeselection.com/sneat-vuetify-vuejs-admin-template/demo-1/front-pages/pricing',
-        target: '_blank',
-      }"
-    />
-    <VerticalNavLink
-      :item="{
-        title: 'Payment',
-        href: 'https://demos.themeselection.com/sneat-vuetify-vuejs-admin-template/demo-1/front-pages/payment',
-        target: '_blank',
-      }"
-    />
-    <VerticalNavLink
-      :item="{
-        title: 'Checkout',
-        href: 'https://demos.themeselection.com/sneat-vuetify-vuejs-admin-template/demo-1/front-pages/checkout',
-        target: '_blank',
-      }"
-    />
-    <VerticalNavLink
-      :item="{
-        title: 'Help Center',
-        href: 'https://demos.themeselection.com/sneat-vuetify-vuejs-admin-template/demo-1/front-pages/help-center',
-        target: '_blank',
-      }"
-    />
 
   <!-- 👉 Apps & Pages -->
   <VerticalNavSectionTitle
@@ -141,29 +106,6 @@ import VerticalNavLink from '@layouts/components/VerticalNavLink.vue'
       title: 'Tables',
       icon: 'bx-table',
       to: '/tables',
-    }"
-  />
-
-  <!-- 👉 Others -->
-  <VerticalNavSectionTitle
-    :item="{
-      heading: 'Others',
-    }"
-  />
-  <VerticalNavLink
-    :item="{
-      title: 'Documentation',
-      icon: 'bx-file',
-      href: 'https://demos.themeselection.com/sneat-vuetify-vuejs-admin-template/documentation/',
-      target: '_blank',
-    }"
-  />
-  <VerticalNavLink
-    :item="{
-      title: 'Raise Support',
-      href: 'https://github.com/themeselection/sneat-vuetify-vuejs-admin-template-free/issues',
-      icon: 'bx-phone',
-      target: '_blank',
     }"
   />
 </template>

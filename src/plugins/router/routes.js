@@ -1,9 +1,17 @@
+// import Login from "@/pages/login.vue";
+
 export const routes = [
   { path: '/', redirect: '/dashboard' },
   {
     path: '/',
     component: () => import('@/layouts/default.vue'),
     children: [
+      // {
+      //   path: "/login",
+      //   name: "login",
+      //   component: Login,
+      //   meta: { requiresAuth: false }, // No auth needed for login
+      // },
       {
         path: 'dashboard',
         component: () => import('@/pages/dashboard.vue'),

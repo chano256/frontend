@@ -16,9 +16,9 @@ router.beforeEach((to, from, next) => {
   const authStore = useAuthStore();
   if (to.meta.requiresAuth && !authStore.token) {
     next({ name: "login" }); // Redirect to login if not authenticated
-  } else {
-    next();
   }
+  
+  next();
 });
 
 export { router }

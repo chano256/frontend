@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import { useAuthStore } from "@/store/auth";
-import Login from "@/views/LoginView.vue";
-import Dashboard from "@/views/DashboardView.vue";
+import Login from "@/pages/login.vue";
 
 const routes = [
   { path: "/", redirect: "/login" },
@@ -10,12 +9,6 @@ const routes = [
     name: "login",
     component: Login,
     meta: { requiresAuth: false }, // No auth needed for login
-  },
-  {
-    path: "/dashboard",
-    name: "dashboard",
-    component: Dashboard,
-    meta: { requiresAuth: true }, // Protect this route
   },
 ];
 

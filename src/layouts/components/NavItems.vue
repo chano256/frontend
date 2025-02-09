@@ -9,7 +9,7 @@ import VerticalNavLink from '@layouts/components/VerticalNavLink.vue'
   <VerticalNavGroup
     :item="{
       title: 'Dashboards',
-      badgeContent: '5',
+      badgeContent: '1',
       badgeClass: 'bg-error',
       icon: 'bx-home-smile',
     }"
